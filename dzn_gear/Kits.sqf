@@ -37,10 +37,10 @@
 // Macros for the list of items to be chosen randomly
 #define RANDOM_ITEM	["H_HelmetB_grass","H_HelmetB"]
 // Macros to give the item only if daytime is in given inerval (e.g. to give NVGoggles only at night)
-#define NIGHT_ITEM(X)	if (daytime < 5 || daytime > 16) then { X } else { "" }
+#define NIGHT_ITEM(X)	if (daytime < 4 || daytime > 16) then { X } else { "" }
 
 // ******** ASSIGNED and UNIFORM ITEMS MACRO ********
-#define NVG_NIGHT_ITEM		if (daytime < 5 || daytime > 16) then { "NVGoggles_OPFOR" } else { "" }
+#define NVG_NIGHT_ITEM		if (daytime < 4 || daytime > 16) then { "NVGoggles_OPFOR" } else { "" }
 #define BINOCULAR_ITEM		"Binocular"
 
 #define ASSIGNED_ITEMS		"ItemMap","ItemCompass","ItemWatch","ItemRadio", NVG_NIGHT_ITEM

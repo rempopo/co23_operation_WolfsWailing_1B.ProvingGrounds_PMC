@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=911;
+		nextID=913;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=210;
+		nextID=243;
 	};
 	class Camera
 	{
-		pos[]={1377.3505,105.35349,1481.7604};
-		dir[]={-0.78225303,-0.39866933,0.47870934};
-		up[]={-0.34005505,0.91708899,0.20810039};
-		aside[]={0.52198219,-7.1013346e-008,0.85296482};
+		pos[]={434.46313,58.86491,560.64209};
+		dir[]={0.77636755,-0.63028538,-0.001357944};
+		up[]={0.63028741,0.77636003,-0.0011024444};
+		aside[]={-0.0017498129,-1.6822014e-007,-1.0000014};
 	};
 };
 binarizationWanted=0;
@@ -383,25 +383,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -450,6 +431,25 @@ class CustomAttributes
 				};
 			};
 		};
+		class Attribute1
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
 		nAttributes=2;
 	};
 	class Category1
@@ -495,7 +495,6 @@ class Mission
 		forecastWind=0;
 		forecastWaves=0;
 		forecastLightnings=0.8343448;
-		rainForced=1;
 		lightningsForced=1;
 		wavesForced=1;
 		windForced=1;
@@ -510,7 +509,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=431;
+		items=433;
 		class Item0
 		{
 			dataType="Marker";
@@ -578,12 +577,12 @@ class Mission
 		class Item2
 		{
 			dataType="Marker";
-			position[]={362.03891,-13.376953,492.88635};
+			position[]={362.039,0,492.88599};
 			name="respawn_east";
-			text="сбор группы после кардона";
+			text="сбор группы после кордона";
 			type="mil_start";
 			id=19;
-			atlOffset=-80.990501;
+			atlOffset=-67.613609;
 		};
 		class Item3
 		{
@@ -9508,14 +9507,15 @@ class Mission
 		class Item227
 		{
 			dataType="Trigger";
-			position[]={344.552,59.248337,613.16602};
+			position[]={354.59341,70.375847,477.11572};
 			angle=1.0150485;
 			class Attributes
 			{
 				name="Music";
 				condition="call{this}";
 				onActivation="call{playmusic ""withoutus"";}";
-				sizeB=300;
+				sizeA=70;
+				sizeB=70;
 				activationBy="EAST";
 			};
 			id=661;
@@ -9668,53 +9668,53 @@ class Mission
 		class Item239
 		{
 			dataType="Marker";
-			position[]={449.44339,54.555649,573.86517};
+			position[]={436.73373,56.851875,563.43109};
 			name="Radiaktiv1";
 			type="Empty";
 			id=679;
-			atlOffset=0.00078964233;
+			atlOffset=0.0055122375;
 		};
 		class Item240
 		{
 			dataType="Trigger";
-			position[]={449.41205,54.561619,573.83618};
+			position[]={436.70261,56.857922,563.40247};
 			class Attributes
 			{
 				condition="call{this}";
 				onActivation="call{player setDamage 0.2;}";
-				sizeA=40;
-				sizeB=40;
+				sizeA=30;
+				sizeB=30;
 				repeatable=1;
 				activationBy="EAST";
 			};
 			id=680;
 			type="EmptyDetectorAreaR50";
-			atlOffset=0.00078964233;
+			atlOffset=0.0054397583;
 		};
 		class Item241
 		{
 			dataType="Trigger";
-			position[]={449.38205,54.571819,573.76117};
+			position[]={436.22559,56.931149,563.19147};
 			class Attributes
 			{
 				condition="call{this}";
 				onActivation="call{player setDamage 0.7;}";
-				sizeA=10;
-				sizeB=10;
+				sizeA=5;
+				sizeB=5;
 				repeatable=1;
 				activationBy="EAST";
 			};
 			id=681;
 			type="EmptyDetector";
-			atlOffset=0.00078964233;
+			atlOffset=0.0044364929;
 		};
 		class Item242
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={449.91061,55.748623,574.35162};
-				angles[]={0.084796004,0,6.1909485};
+				position[]={436.97787,58.15617,562.94647};
+				angles[]={0.11202893,0,6.1760964};
 			};
 			side="Empty";
 			flags=4;
@@ -9724,7 +9724,7 @@ class Mission
 			};
 			id=683;
 			type="Land_RailwayCar_01_tank_F";
-			atlOffset=-0.0002822876;
+			atlOffset=-0.0080795288;
 		};
 		class Item243
 		{
@@ -12281,11 +12281,11 @@ class Mission
 		class Item401
 		{
 			dataType="Trigger";
-			position[]={1528.927,51.352028,1492.522};
+			position[]={1529.4402,51.253494,1490.8992};
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{player setVelocity [0,0,100]}";
+				onActivation="call{player setVelocity [0,0,10]}";
 				sizeA=10;
 				sizeB=10;
 				repeatable=1;
@@ -12353,7 +12353,7 @@ class Mission
 			type="rectangle";
 			a=8;
 			b=8;
-			angle=107.79594;
+			angle=107.79592;
 			id=881;
 			atlOffset=-50.904148;
 		};
@@ -12696,7 +12696,7 @@ class Mission
 			alpha=0.59271735;
 			a=170;
 			b=530;
-			angle=127.56898;
+			angle=127.56897;
 			id=909;
 			atlOffset=-50.574619;
 		};
@@ -12710,6 +12710,39 @@ class Mission
 			colorName="ColorBrown";
 			id=910;
 			atlOffset=-50.256332;
+		};
+		class Item431
+		{
+			dataType="Trigger";
+			position[]={1529.391,51.229588,1490.6038};
+			class Attributes
+			{
+				sizeA=12;
+				sizeB=12;
+				repeatable=1;
+				activationBy="EAST";
+				effectSoundEnvironment="WindNoForestHigh";
+			};
+			id=911;
+			type="EmptyDetector";
+		};
+		class Item432
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={436.17798,57.296669,561.05084};
+				angles[]={0.11202893,0,6.1760964};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=1082683392;
+			};
+			id=912;
+			type="Land_Camping_Light_F";
+			atlOffset=0.0039176941;
 		};
 	};
 	class Connections

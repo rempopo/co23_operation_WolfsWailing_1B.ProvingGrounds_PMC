@@ -1,4 +1,4 @@
-﻿_handle = [getMarkerPos "Radiaktiv1", 90, 50, 10] spawn TSS_fnc_RADS;
+﻿_handle = [getMarkerPos "Radiaktiv1", 50, 20, 5] spawn TSS_fnc_RADS;
 _handle = [getMarkerPos "Radiaktiv1_2", 10, 9, 8] spawn TSS_fnc_RADS;
 _handle = [getMarkerPos "Radiaktiv1_3", 100, 50, 10] spawn TSS_fnc_RADS;
 _handle = [getMarkerPos "Radiaktiv1_4", 100, 50, 10] spawn TSS_fnc_RADS;
