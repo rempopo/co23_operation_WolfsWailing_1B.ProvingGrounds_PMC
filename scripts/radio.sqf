@@ -1,0 +1,13 @@
+﻿_handle = [getMarkerPos "Radiaktiv1", 90, 50, 10] spawn TSS_fnc_RADS;
+_handle = [getMarkerPos "Radiaktiv1_2", 10, 9, 8] spawn TSS_fnc_RADS;
+_handle = [getMarkerPos "Radiaktiv1_3", 100, 50, 10] spawn TSS_fnc_RADS;
+_handle = [getMarkerPos "Radiaktiv1_4", 100, 50, 10] spawn TSS_fnc_RADS;
+_handle = [getMarkerPos "Radiaktiv1_5", 100, 50, 10] spawn TSS_fnc_RADS;
+_handle = [getMarkerPos "Radiaktiv1_6", 100, 50, 10] spawn TSS_fnc_RADS;
+_handle = [getMarkerPos "Radiaktiv1_7", 100, 50, 10] spawn TSS_fnc_RADS;
+_handle = [getMarkerPos "Radiaktiv1_8", 100, 50, 10] spawn TSS_fnc_RADS;
+_handle = [getMarkerPos "Radiaktiv1_9", 100, 50, 10] spawn TSS_fnc_RADS;
+_handle = [getMarkerPos "Radiaktiv1_10", 100, 50, 10] spawn TSS_fnc_RADS;
+_handle = [getMarkerPos "Radiaktiv1_11", 100, 50, 10] spawn TSS_fnc_RADS;
+_handle = [getMarkerPos "Radiaktiv1_12", 100, 50, 10] spawn TSS_fnc_RADS;
+_handle = [getMarkerPos "Radiaktiv1_13", 100, 50, 10] spawn TSS_fnc_RADS;
