@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=243;
+		nextID=265;
 	};
 	class Camera
 	{
-		pos[]={434.46313,58.86491,560.64209};
-		dir[]={0.77636755,-0.63028538,-0.001357944};
-		up[]={0.63028741,0.77636003,-0.0011024444};
-		aside[]={-0.0017498129,-1.6822014e-007,-1.0000014};
+		pos[]={908.79443,71.903473,737.47485};
+		dir[]={-0.57973117,-0.38166797,0.71989661};
+		up[]={-0.23938556,0.92429817,0.29726335};
+		aside[]={0.77885455,-1.1431985e-007,0.62721127};
 	};
 };
 binarizationWanted=0;
@@ -495,13 +495,14 @@ class Mission
 		forecastWind=0;
 		forecastWaves=0;
 		forecastLightnings=0.8343448;
+		rainForced=1;
 		lightningsForced=1;
 		wavesForced=1;
 		windForced=1;
 		year=2017;
 		month=8;
 		day=24;
-		minute=20;
+		hour=4;
 		startFogBase=55.260864;
 		forecastFogBase=-132.62598;
 		startFogDecay=0.0066202595;
@@ -3397,7 +3398,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={369.94913,66.55706,496.29474};
-								angles[]={0,4.7998123,0};
+								angles[]={0,4.7998118,0};
 							};
 							side="East";
 							flags=5;
@@ -3477,7 +3478,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={371.12012,66.301659,498.19977};
-								angles[]={0,4.7998123,0};
+								angles[]={0,4.7998118,0};
 							};
 							side="East";
 							flags=7;
@@ -3556,7 +3557,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={371.29413,66.09433,500.19275};
-								angles[]={0,4.7998123,0};
+								angles[]={0,4.7998118,0};
 							};
 							side="East";
 							flags=5;
@@ -3635,7 +3636,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={371.46912,65.865166,502.18475};
-								angles[]={0,4.7998123,0};
+								angles[]={0,4.7998118,0};
 							};
 							side="East";
 							flags=5;
@@ -3714,7 +3715,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={371.64413,65.638901,504.1767};
-								angles[]={0,4.7998123,0};
+								angles[]={0,4.7998118,0};
 							};
 							side="East";
 							flags=5;
@@ -3794,7 +3795,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={375.10513,66.136086,497.85077};
-								angles[]={0,4.7998123,0};
+								angles[]={0,4.7998118,0};
 							};
 							side="East";
 							flags=5;
@@ -3874,7 +3875,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={375.27911,65.922348,499.84271};
-								angles[]={0,4.7998123,0};
+								angles[]={0,4.7998118,0};
 							};
 							side="East";
 							flags=5;
@@ -9668,16 +9669,16 @@ class Mission
 		class Item239
 		{
 			dataType="Marker";
-			position[]={436.73373,56.851875,563.43109};
+			position[]={260.72961,77.994972,964.19952};
 			name="Radiaktiv1";
 			type="Empty";
 			id=679;
-			atlOffset=0.0055122375;
+			atlOffset=0.0015869141;
 		};
 		class Item240
 		{
 			dataType="Trigger";
-			position[]={436.70261,56.857922,563.40247};
+			position[]={260.69849,77.997543,964.1709};
 			class Attributes
 			{
 				condition="call{this}";
@@ -9689,12 +9690,12 @@ class Mission
 			};
 			id=680;
 			type="EmptyDetectorAreaR50";
-			atlOffset=0.0054397583;
+			atlOffset=0.0015106201;
 		};
 		class Item241
 		{
 			dataType="Trigger";
-			position[]={436.22559,56.931149,563.19147};
+			position[]={260.22144,78.027939,963.9599};
 			class Attributes
 			{
 				condition="call{this}";
@@ -9706,15 +9707,15 @@ class Mission
 			};
 			id=681;
 			type="EmptyDetector";
-			atlOffset=0.0044364929;
+			atlOffset=0.00051879883;
 		};
 		class Item242
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={436.97787,58.15617,562.94647};
-				angles[]={0.11202893,0,6.1760964};
+				position[]={260.97375,79.249954,963.7149};
+				angles[]={6.2731848,0,6.228241};
 			};
 			side="Empty";
 			flags=4;
@@ -9724,7 +9725,7 @@ class Mission
 			};
 			id=683;
 			type="Land_RailwayCar_01_tank_F";
-			atlOffset=-0.0080795288;
+			atlOffset=-0.011131287;
 		};
 		class Item243
 		{
@@ -9816,16 +9817,16 @@ class Mission
 		class Item249
 		{
 			dataType="Marker";
-			position[]={1024.3639,51.15345,676.33838};
+			position[]={1079.1796,51.927967,630.66821};
 			name="Radiaktiv1_3";
 			type="Empty";
 			id=692;
-			atlOffset=0.52629852;
+			atlOffset=0.52622604;
 		};
 		class Item250
 		{
 			dataType="Trigger";
-			position[]={1024.3325,51.158825,676.30939};
+			position[]={1079.1482,51.932762,630.63922};
 			class Attributes
 			{
 				condition="call{this}";
@@ -9837,12 +9838,12 @@ class Mission
 			};
 			id=693;
 			type="EmptyDetectorAreaR50";
-			atlOffset=0.5322876;
+			atlOffset=0.53221512;
 		};
 		class Item251
 		{
 			dataType="Trigger";
-			position[]={1024.3025,51.167988,676.23438};
+			position[]={1079.1182,51.943501,630.56421};
 			class Attributes
 			{
 				condition="call{this}";
@@ -9854,7 +9855,7 @@ class Mission
 			};
 			id=694;
 			type="EmptyDetector";
-			atlOffset=0.5422821;
+			atlOffset=0.54220963;
 		};
 		class Item252
 		{
@@ -12152,16 +12153,16 @@ class Mission
 		class Item392
 		{
 			dataType="Marker";
-			position[]={1190.0071,51.362213,368.16821};
+			position[]={1240.4711,52.028996,468.32581};
 			name="Radiaktiv1_4";
 			type="Empty";
 			id=863;
-			atlOffset=0.52505112;
+			atlOffset=0.52504349;
 		};
 		class Item393
 		{
 			dataType="Trigger";
-			position[]={1189.9757,51.368237,368.13922};
+			position[]={1240.4397,52.037586,468.29681};
 			class Attributes
 			{
 				condition="call{this}";
@@ -12173,12 +12174,12 @@ class Mission
 			};
 			id=864;
 			type="EmptyDetectorAreaR50";
-			atlOffset=0.53104019;
+			atlOffset=0.53103256;
 		};
 		class Item394
 		{
 			dataType="Trigger";
-			position[]={1189.9457,51.379093,368.06421};
+			position[]={1240.4097,52.051373,468.2218};
 			class Attributes
 			{
 				condition="call{this}";
@@ -12190,7 +12191,7 @@ class Mission
 			};
 			id=865;
 			type="EmptyDetector";
-			atlOffset=0.5410347;
+			atlOffset=0.54102707;
 		};
 		class Item395
 		{
@@ -12457,16 +12458,16 @@ class Mission
 		class Item413
 		{
 			dataType="Marker";
-			position[]={736.39624,50.94173,1692.778};
+			position[]={855.53455,52.969364,802.2171};
 			name="Radiaktiv1_9";
 			type="Empty";
 			id=893;
-			atlOffset=0.55505371;
+			atlOffset=0.55497742;
 		};
 		class Item414
 		{
 			dataType="Trigger";
-			position[]={736.36487,50.945984,1692.749};
+			position[]={855.50317,52.973938,802.18817};
 			class Attributes
 			{
 				condition="call{this}";
@@ -12478,12 +12479,12 @@ class Mission
 			};
 			id=894;
 			type="EmptyDetectorAreaR50";
-			atlOffset=0.56104279;
+			atlOffset=0.56096649;
 		};
 		class Item415
 		{
 			dataType="Trigger";
-			position[]={736.33484,50.951473,1692.674};
+			position[]={855.47314,52.979614,802.1131};
 			class Attributes
 			{
 				condition="call{this}";
@@ -12495,21 +12496,21 @@ class Mission
 			};
 			id=895;
 			type="EmptyDetector";
-			atlOffset=0.57103729;
+			atlOffset=0.570961;
 		};
 		class Item416
 		{
 			dataType="Marker";
-			position[]={877.81085,51.224346,1601.1539};
+			position[]={223.83374,73.667358,1250.5515};
 			name="Radiaktiv1_10";
 			type="Empty";
 			id=896;
-			atlOffset=0.5237999;
+			atlOffset=0.52365875;
 		};
 		class Item417
 		{
 			dataType="Trigger";
-			position[]={877.77948,51.230431,1601.125};
+			position[]={223.80237,73.673134,1250.5226};
 			class Attributes
 			{
 				condition="call{this}";
@@ -12521,12 +12522,12 @@ class Mission
 			};
 			id=897;
 			type="EmptyDetectorAreaR50";
-			atlOffset=0.52978897;
+			atlOffset=0.5296402;
 		};
 		class Item418
 		{
 			dataType="Trigger";
-			position[]={877.74945,51.240166,1601.0499};
+			position[]={223.77234,73.68531,1250.4475};
 			class Attributes
 			{
 				condition="call{this}";
@@ -12538,7 +12539,7 @@ class Mission
 			};
 			id=898;
 			type="EmptyDetector";
-			atlOffset=0.53978729;
+			atlOffset=0.53964233;
 		};
 		class Item419
 		{
@@ -12731,8 +12732,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={436.17798,57.296669,561.05084};
-				angles[]={0.11202893,0,6.1760964};
+				position[]={260.17386,78.09597,961.81927};
+				angles[]={6.2581916,0,6.2432065};
 			};
 			side="Empty";
 			flags=4;
@@ -12742,7 +12743,7 @@ class Mission
 			};
 			id=912;
 			type="Land_Camping_Light_F";
-			atlOffset=0.0039176941;
+			atlOffset=-0.0013656616;
 		};
 	};
 	class Connections
